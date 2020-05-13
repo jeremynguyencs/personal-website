@@ -38,15 +38,15 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
+          <Navbar className="border-bottom" bg="white" expand="lg">
             <Navbar.Brand>Jeremy Nguyen</Navbar.Brand>
             
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/resume">Resume</Link>
+                <Link className="nav-link" to="/"><i class="fa fa-fw fa-home"></i>Home</Link>
+                <Link className="nav-link" to="/about"><i class="fa fa-fw fa-user"></i>About</Link>
+                <Link className="nav-link" to="/resume"><i class="fa fa-fw fa-envelope"></i>Resume</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

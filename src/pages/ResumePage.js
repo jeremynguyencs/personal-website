@@ -10,7 +10,7 @@ function AboutPage(props){
         <div>
             <Hero title={props.title}/>
             <Content>
-            <a href = {Resume} target = "_blank">Open PDF in new tab</a>
+            <a href = {Resume} target = "_blank" rel="noopener noreferrer">Open PDF in new tab</a>
             </Content>
         </div>
     )

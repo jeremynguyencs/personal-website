@@ -17,7 +17,7 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'COVID Connect',
-                    subTitle: 'A platform for COVID-19 communications',
+                    subTitle: 'A platform for COVID-19 data',
                     imgSrc: COVID_Connect,
                     link: 'https://joinlaunchpad.com/#/projects/1316/combating-covid-19-2',
                     selected: false
@@ -66,7 +66,7 @@ class Carousel extends React.Component {
 
     render () {
         return(
-          <Container fluid={true}>
+          <Container>
               <Row className="justify-content-around">
                 {this.makeItems(this.state.items)}
               </Row>
