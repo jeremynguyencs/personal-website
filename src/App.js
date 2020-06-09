@@ -22,7 +22,7 @@ class App extends React.Component {
         home: {
           title: 'Hello there',
           subTitle: 'I\'m Jeremy',
-          text: 'Checkout my projects below'
+          text: 'Check out my projects below'
         },
         about: {
           title: 'About Me',
@@ -39,6 +39,7 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           
           <Navbar className="border-bottom" bg="white" expand="lg">
+            <Container>
             <Navbar.Brand>Jeremy Nguyen</Navbar.Brand>
             
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
@@ -49,6 +50,7 @@ class App extends React.Component {
                 <Link className="nav-link" to="/resume"><i class="fa fa-fw fa-envelope"></i>Resume</Link>
               </Nav>
             </Navbar.Collapse>
+            </Container>
           </Navbar>
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />

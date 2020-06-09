@@ -2,9 +2,9 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-import WIP from '../assets/images/WIP.png';
-import COVID_Connect from '../assets/images/COVID_Connect.png';
-import Github from '../assets/images/Github.png';
+import WIP from '../assets/images/WIP.jpg';
+import COVID_Connect from '../assets/images/COVID_Connect.jpg';
+import Github from '../assets/images/Github.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 

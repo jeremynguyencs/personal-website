@@ -23,8 +23,8 @@ code {
   width: 300px;
   height: 480px;
   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  cursor: pointer;
 }
-
 
 .g-card-info {
   margin-top: 10px;
